@@ -2,7 +2,7 @@
     /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     +                 Sudoku JS v1.05  by Michael Loesler                  +
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    + Copyright (C) 2006-11 by Michael Loesler, http//derletztekick.com    +
+    + Copyright (C) 2006-11 by Michael Loesler,  +
     +                                                                      +
     +                                                                      +
     + This program is free software; you can redistribute it and/or modify +
@@ -435,8 +435,8 @@
 						Td.appendChild(document.createTextNode("SUDOKU-Puzzle"));
 						try { Td.style.cursor = "pointer"; }
 						catch(e){ Td.style.cursor = "hand"; }
-						Td.onclick = function() { window.open("http://derletztekick.com", "_blank"); };
-						Td.title = "SUDOKU-Puzzle by derletztekick.com...";
+						Td.onclick = function() { };
+						Td.title = "SUDOKU-Puzzle...";
 						
 					break;
 					case 2:

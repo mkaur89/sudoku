@@ -5,12 +5,12 @@
 			}
 			#sudoku_panel tbody td {
 				border: 1px solid black;
-				padding: 10px 10px;
+				padding: 8px 8px;
 				margin: 0;
 				text-align:center;
 				vertical-align: middle;
 				width: 11%;
-				height: 20px;
+				height: 18px;
 				background-color: #eee;
 			}
 
