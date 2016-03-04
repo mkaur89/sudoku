@@ -471,7 +471,6 @@ function drawSliderByVal(slider) {
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 function setSliderByClientX(slider, clientX) {
-	//var p=(clientX-slider.offsetLeft-5)/(slider.scrollWidth-9);
 	var p=(clientX-slider.offsetLeft-5)/(slider.offsetWidth-9);
 	slider.val=(slider.max-slider.min)*p + slider.min;
 	if (slider.val>slider.max) slider.val=slider.max;
@@ -543,7 +542,6 @@ function attachSliderEvents() {
 	}
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-//borrowed from prototype: http://prototype.conio.net/
 function stopEvent(event) {
 	if (event.preventDefault) {
 		event.preventDefault();
